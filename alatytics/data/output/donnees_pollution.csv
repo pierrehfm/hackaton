@@ -1,0 +1,631 @@
+id,code_zone,lib_zone,date_ech,date_dif,code_pol,lib_pol,etat,couleur,com_court,com_long,longitude,latitude
+1,2016,Zone Alpine Ain,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+2,2016,Zone Alpine Ain,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+3,2016,Zone Alpine Ain,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+4,2016,Zone Alpine Ain,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+5,2016,Zone Alpine Ain,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+6,2016,Zone Alpine Ain,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+7,2013,Zone Alpine Isère,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+8,2013,Zone Alpine Isère,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+9,2013,Zone Alpine Isère,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+10,2013,Zone Alpine Isère,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+11,2013,Zone Alpine Isère,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+12,2013,Zone Alpine Isère,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+13,2007,Ouest Ardèche,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+14,2007,Ouest Ardèche,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+15,2007,Ouest Ardèche,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+16,2007,Ouest Ardèche,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+17,2007,Ouest Ardèche,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+18,2007,Ouest Ardèche,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+19,2004,Contreforts Massif Central,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+20,2004,Contreforts Massif Central,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+21,2004,Contreforts Massif Central,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+22,2004,Contreforts Massif Central,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+23,2004,Contreforts Massif Central,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+24,2004,Contreforts Massif Central,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+25,2010,Vallée Maurienne Tarentaise,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+26,2010,Vallée Maurienne Tarentaise,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+27,2010,Vallée Maurienne Tarentaise,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+28,2010,Vallée Maurienne Tarentaise,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+29,2010,Vallée Maurienne Tarentaise,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+30,2010,Vallée Maurienne Tarentaise,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+31,2011,Zone des Coteaux,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+32,2011,Zone des Coteaux,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+33,2011,Zone des Coteaux,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+34,2011,Zone des Coteaux,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+35,2011,Zone des Coteaux,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",4.570351392,45.582501582
+36,2011,Zone des Coteaux,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",4.570351392,45.582501582
+37,2012,Zone urbaine des Pays de Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+38,2012,Zone urbaine des Pays de Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+39,2012,Zone urbaine des Pays de Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+40,2012,Zone urbaine des Pays de Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+41,2012,Zone urbaine des Pays de Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+42,2012,Zone urbaine des Pays de Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+43,2001,Bassin Lémanique,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+44,2001,Bassin Lémanique,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+45,2001,Bassin Lémanique,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+46,2001,Bassin Lémanique,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+47,2001,Bassin Lémanique,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+48,2001,Bassin Lémanique,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+49,2002,Bassin Stéphanois,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+50,2002,Bassin Stéphanois,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+51,2002,Bassin Stéphanois,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+52,2002,Bassin Stéphanois,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+53,2002,Bassin Stéphanois,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",4.226570306,45.390175614
+54,2002,Bassin Stéphanois,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",4.226570306,45.390175614
+55,2006,Ouest Ain,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+56,2006,Ouest Ain,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+57,2006,Ouest Ain,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+58,2006,Ouest Ain,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+59,2006,Ouest Ain,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",5.435217917,45.829750919
+60,2006,Ouest Ain,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",5.435217917,45.829750919
+61,2014,Zone Alpine Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+62,2014,Zone Alpine Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+63,2014,Zone Alpine Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+64,2014,Zone Alpine Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+65,2014,Zone Alpine Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+66,2014,Zone Alpine Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+67,2008,Vallée de l'Arve,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+68,2008,Vallée de l'Arve,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+69,2008,Vallée de l'Arve,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+70,2008,Vallée de l'Arve,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+71,2008,Vallée de l'Arve,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+72,2008,Vallée de l'Arve,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+73,2003,Bassin Lyon Nord-Isère,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+74,2003,Bassin Lyon Nord-Isère,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+75,2003,Bassin Lyon Nord-Isère,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+76,2003,Bassin Lyon Nord-Isère,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+77,2003,Bassin Lyon Nord-Isère,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",5.502455281,45.26341871
+78,2003,Bassin Lyon Nord-Isère,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",5.502455281,45.26341871
+79,2000,Bassin Grenoblois,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+80,2000,Bassin Grenoblois,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+81,2000,Bassin Grenoblois,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+82,2000,Bassin Grenoblois,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+83,2000,Bassin Grenoblois,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+84,2000,Bassin Grenoblois,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+85,2005,Est Drôme,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+86,2005,Est Drôme,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+87,2005,Est Drôme,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+88,2005,Est Drôme,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+89,2005,Est Drôme,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+90,2005,Est Drôme,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+91,2009,Vallée du Rhône,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+92,2009,Vallée du Rhône,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+93,2009,Vallée du Rhône,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+94,2009,Vallée du Rhône,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+95,2009,Vallée du Rhône,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,INFORMATION ET RECOMMANDATION,#FEFE00,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",4.549298192,44.32463879
+96,2009,Vallée du Rhône,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,INFORMATION ET RECOMMANDATION,#FEFE00,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",4.549298192,44.32463879
+97,2015,Zone Alpine Haute-Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+98,2015,Zone Alpine Haute-Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+99,2015,Zone Alpine Haute-Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+100,2015,Zone Alpine Haute-Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+101,2015,Zone Alpine Haute-Savoie,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+102,2015,Zone Alpine Haute-Savoie,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+103,2018,Puy-de-Dôme,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+104,2018,Puy-de-Dôme,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+105,2018,Puy-de-Dôme,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+106,2018,Puy-de-Dôme,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+107,2018,Puy-de-Dôme,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",3.103709691,45.354134286
+108,2018,Puy-de-Dôme,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu","Dimanche 14 janvier 2024, les conditions atmosphériques auront peu évolué avec la persistance de l'inversion de température. L'épisode en cours devrait atteindre son maximum d'intensité avec une augmentation des niveaux et une extension géographiqu",3.103709691,45.354134286
+109,2017,Haute-Loire,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+110,2017,Haute-Loire,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+111,2017,Haute-Loire,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+112,2017,Haute-Loire,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+113,2017,Haute-Loire,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+114,2017,Haute-Loire,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+115,2019,Cantal,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+116,2019,Cantal,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+117,2019,Cantal,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+118,2019,Cantal,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+119,2019,Cantal,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+120,2019,Cantal,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+121,2020,Allier,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+122,2020,Allier,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+123,2020,Allier,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+124,2020,Allier,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+125,2020,Allier,2024-01-14 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+126,2020,Allier,2024-01-13 00:00:00+00:00,2024-01-13 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+127,2016,Zone Alpine Ain,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+128,2016,Zone Alpine Ain,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+129,2016,Zone Alpine Ain,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+130,2016,Zone Alpine Ain,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+131,2016,Zone Alpine Ain,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+132,2016,Zone Alpine Ain,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+133,2013,Zone Alpine Isère,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+134,2013,Zone Alpine Isère,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+135,2013,Zone Alpine Isère,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+136,2013,Zone Alpine Isère,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+137,2013,Zone Alpine Isère,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+138,2013,Zone Alpine Isère,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+139,2007,Ouest Ardèche,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+140,2007,Ouest Ardèche,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+141,2007,Ouest Ardèche,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+142,2007,Ouest Ardèche,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+143,2007,Ouest Ardèche,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+144,2007,Ouest Ardèche,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+145,2004,Contreforts Massif Central,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+146,2004,Contreforts Massif Central,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+147,2004,Contreforts Massif Central,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+148,2004,Contreforts Massif Central,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+149,2004,Contreforts Massif Central,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+150,2004,Contreforts Massif Central,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+151,2010,Vallée Maurienne Tarentaise,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+152,2010,Vallée Maurienne Tarentaise,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+153,2010,Vallée Maurienne Tarentaise,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+154,2010,Vallée Maurienne Tarentaise,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+155,2010,Vallée Maurienne Tarentaise,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+156,2010,Vallée Maurienne Tarentaise,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+157,2011,Zone des Coteaux,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+158,2011,Zone des Coteaux,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+159,2011,Zone des Coteaux,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+160,2011,Zone des Coteaux,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+161,2011,Zone des Coteaux,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+162,2011,Zone des Coteaux,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+163,2012,Zone urbaine des Pays de Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+164,2012,Zone urbaine des Pays de Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+165,2012,Zone urbaine des Pays de Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+166,2012,Zone urbaine des Pays de Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+167,2012,Zone urbaine des Pays de Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+168,2012,Zone urbaine des Pays de Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+169,2001,Bassin Lémanique,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+170,2001,Bassin Lémanique,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+171,2001,Bassin Lémanique,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+172,2001,Bassin Lémanique,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+173,2001,Bassin Lémanique,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+174,2001,Bassin Lémanique,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+175,2002,Bassin Stéphanois,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+176,2002,Bassin Stéphanois,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+177,2002,Bassin Stéphanois,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+178,2002,Bassin Stéphanois,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+179,2002,Bassin Stéphanois,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+180,2002,Bassin Stéphanois,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+181,2006,Ouest Ain,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+182,2006,Ouest Ain,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+183,2006,Ouest Ain,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+184,2006,Ouest Ain,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+185,2006,Ouest Ain,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+186,2006,Ouest Ain,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+187,2014,Zone Alpine Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+188,2014,Zone Alpine Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+189,2014,Zone Alpine Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+190,2014,Zone Alpine Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+191,2014,Zone Alpine Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+192,2014,Zone Alpine Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+193,2008,Vallée de l'Arve,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+194,2008,Vallée de l'Arve,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+195,2008,Vallée de l'Arve,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+196,2008,Vallée de l'Arve,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+197,2008,Vallée de l'Arve,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+198,2008,Vallée de l'Arve,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+199,2003,Bassin Lyon Nord-Isère,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+200,2003,Bassin Lyon Nord-Isère,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+201,2003,Bassin Lyon Nord-Isère,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+202,2003,Bassin Lyon Nord-Isère,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+203,2003,Bassin Lyon Nord-Isère,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Lundi 15 janvier 2024, les niveaux de particules restent élevés dans le bassin lyonnais Nord Isère. La perturbation peu active qui circule sur le Nord de la région est accompagnée de faibles précipitations qui ne permettent pas un lessivage efficace","Lundi 15 janvier 2024, les niveaux de particules restent élevés dans le bassin lyonnais Nord Isère. La perturbation peu active qui circule sur le Nord de la région est accompagnée de faibles précipitations qui ne permettent pas un lessivage efficace",5.502455281,45.26341871
+204,2003,Bassin Lyon Nord-Isère,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Lundi 15 janvier 2024, les niveaux de particules restent élevés dans le bassin lyonnais Nord Isère. La perturbation peu active qui circule sur le Nord de la région est accompagnée de faibles précipitations qui ne permettent pas un lessivage efficace","Lundi 15 janvier 2024, les niveaux de particules restent élevés dans le bassin lyonnais Nord Isère. La perturbation peu active qui circule sur le Nord de la région est accompagnée de faibles précipitations qui ne permettent pas un lessivage efficace",5.502455281,45.26341871
+205,2000,Bassin Grenoblois,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+206,2000,Bassin Grenoblois,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+207,2000,Bassin Grenoblois,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+208,2000,Bassin Grenoblois,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+209,2000,Bassin Grenoblois,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+210,2000,Bassin Grenoblois,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+211,2005,Est Drôme,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+212,2005,Est Drôme,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+213,2005,Est Drôme,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+214,2005,Est Drôme,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+215,2005,Est Drôme,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+216,2005,Est Drôme,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+217,2009,Vallée du Rhône,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+218,2009,Vallée du Rhône,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+219,2009,Vallée du Rhône,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+220,2009,Vallée du Rhône,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+221,2009,Vallée du Rhône,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+222,2009,Vallée du Rhône,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+223,2015,Zone Alpine Haute-Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+224,2015,Zone Alpine Haute-Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+225,2015,Zone Alpine Haute-Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+226,2015,Zone Alpine Haute-Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+227,2015,Zone Alpine Haute-Savoie,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+228,2015,Zone Alpine Haute-Savoie,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+229,2018,Puy-de-Dôme,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+230,2018,Puy-de-Dôme,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+231,2018,Puy-de-Dôme,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+232,2018,Puy-de-Dôme,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+233,2018,Puy-de-Dôme,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+234,2018,Puy-de-Dôme,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+235,2017,Haute-Loire,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+236,2017,Haute-Loire,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+237,2017,Haute-Loire,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+238,2017,Haute-Loire,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+239,2017,Haute-Loire,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+240,2017,Haute-Loire,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+241,2019,Cantal,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+242,2019,Cantal,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+243,2019,Cantal,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+244,2019,Cantal,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+245,2019,Cantal,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+246,2019,Cantal,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+247,2020,Allier,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+248,2020,Allier,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+249,2020,Allier,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+250,2020,Allier,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+251,2020,Allier,2024-01-15 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+252,2020,Allier,2024-01-14 00:00:00+00:00,2024-01-14 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+253,2016,Zone Alpine Ain,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+254,2016,Zone Alpine Ain,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+255,2016,Zone Alpine Ain,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+256,2016,Zone Alpine Ain,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+257,2016,Zone Alpine Ain,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+258,2016,Zone Alpine Ain,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+259,2013,Zone Alpine Isère,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+260,2013,Zone Alpine Isère,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+261,2013,Zone Alpine Isère,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+262,2013,Zone Alpine Isère,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+263,2013,Zone Alpine Isère,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+264,2013,Zone Alpine Isère,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+265,2007,Ouest Ardèche,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+266,2007,Ouest Ardèche,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+267,2007,Ouest Ardèche,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+268,2007,Ouest Ardèche,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+269,2007,Ouest Ardèche,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+270,2007,Ouest Ardèche,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+271,2004,Contreforts Massif Central,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+272,2004,Contreforts Massif Central,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+273,2004,Contreforts Massif Central,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+274,2004,Contreforts Massif Central,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+275,2004,Contreforts Massif Central,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+276,2004,Contreforts Massif Central,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+277,2010,Vallée Maurienne Tarentaise,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+278,2010,Vallée Maurienne Tarentaise,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+279,2010,Vallée Maurienne Tarentaise,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+280,2010,Vallée Maurienne Tarentaise,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+281,2010,Vallée Maurienne Tarentaise,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+282,2010,Vallée Maurienne Tarentaise,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+283,2011,Zone des Coteaux,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+284,2011,Zone des Coteaux,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+285,2011,Zone des Coteaux,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+286,2011,Zone des Coteaux,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+287,2011,Zone des Coteaux,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+288,2011,Zone des Coteaux,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+289,2012,Zone urbaine des Pays de Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+290,2012,Zone urbaine des Pays de Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+291,2012,Zone urbaine des Pays de Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+292,2012,Zone urbaine des Pays de Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+293,2012,Zone urbaine des Pays de Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+294,2012,Zone urbaine des Pays de Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+295,2001,Bassin Lémanique,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+296,2001,Bassin Lémanique,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+297,2001,Bassin Lémanique,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+298,2001,Bassin Lémanique,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+299,2001,Bassin Lémanique,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+300,2001,Bassin Lémanique,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+301,2002,Bassin Stéphanois,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+302,2002,Bassin Stéphanois,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+303,2002,Bassin Stéphanois,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+304,2002,Bassin Stéphanois,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+305,2002,Bassin Stéphanois,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+306,2002,Bassin Stéphanois,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+307,2006,Ouest Ain,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+308,2006,Ouest Ain,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+309,2006,Ouest Ain,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+310,2006,Ouest Ain,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+311,2006,Ouest Ain,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+312,2006,Ouest Ain,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+313,2014,Zone Alpine Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+314,2014,Zone Alpine Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+315,2014,Zone Alpine Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+316,2014,Zone Alpine Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+317,2014,Zone Alpine Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+318,2014,Zone Alpine Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+319,2008,Vallée de l'Arve,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+320,2008,Vallée de l'Arve,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+321,2008,Vallée de l'Arve,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+322,2008,Vallée de l'Arve,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+323,2008,Vallée de l'Arve,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+324,2008,Vallée de l'Arve,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+325,2003,Bassin Lyon Nord-Isère,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+326,2003,Bassin Lyon Nord-Isère,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+327,2003,Bassin Lyon Nord-Isère,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+328,2003,Bassin Lyon Nord-Isère,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+329,2003,Bassin Lyon Nord-Isère,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Mardi 16 janvier 2024, les conditions atmosphériques évoluent peu avec des inversions de température. Le risque de dépassement du seuil d'information et de recommandations est encore possible pour la journée du mardi 16 janvier dans la zone du bassin","Mardi 16 janvier 2024, les conditions atmosphériques évoluent peu avec des inversions de température. Le risque de dépassement du seuil d'information et de recommandations est encore possible pour la journée du mardi 16 janvier dans la zone du bassin",5.502455281,45.26341871
+330,2003,Bassin Lyon Nord-Isère,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,ALERTE SUR PERSISTANCE,#FFCE19,"Mardi 16 janvier 2024, les conditions atmosphériques évoluent peu avec des inversions de température. Le risque de dépassement du seuil d'information et de recommandations est encore possible pour la journée du mardi 16 janvier dans la zone du bassin","Mardi 16 janvier 2024, les conditions atmosphériques évoluent peu avec des inversions de température. Le risque de dépassement du seuil d'information et de recommandations est encore possible pour la journée du mardi 16 janvier dans la zone du bassin",5.502455281,45.26341871
+331,2000,Bassin Grenoblois,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+332,2000,Bassin Grenoblois,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+333,2000,Bassin Grenoblois,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+334,2000,Bassin Grenoblois,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+335,2000,Bassin Grenoblois,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+336,2000,Bassin Grenoblois,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+337,2005,Est Drôme,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+338,2005,Est Drôme,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+339,2005,Est Drôme,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+340,2005,Est Drôme,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+341,2005,Est Drôme,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+342,2005,Est Drôme,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+343,2009,Vallée du Rhône,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+344,2009,Vallée du Rhône,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+345,2009,Vallée du Rhône,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+346,2009,Vallée du Rhône,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+347,2009,Vallée du Rhône,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+348,2009,Vallée du Rhône,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+349,2015,Zone Alpine Haute-Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+350,2015,Zone Alpine Haute-Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+351,2015,Zone Alpine Haute-Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+352,2015,Zone Alpine Haute-Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+353,2015,Zone Alpine Haute-Savoie,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+354,2015,Zone Alpine Haute-Savoie,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+355,2018,Puy-de-Dôme,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+356,2018,Puy-de-Dôme,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+357,2018,Puy-de-Dôme,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+358,2018,Puy-de-Dôme,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+359,2018,Puy-de-Dôme,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+360,2018,Puy-de-Dôme,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+361,2017,Haute-Loire,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+362,2017,Haute-Loire,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+363,2017,Haute-Loire,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+364,2017,Haute-Loire,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+365,2017,Haute-Loire,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+366,2017,Haute-Loire,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+367,2019,Cantal,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+368,2019,Cantal,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+369,2019,Cantal,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+370,2019,Cantal,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+371,2019,Cantal,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+372,2019,Cantal,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+373,2020,Allier,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+374,2020,Allier,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+375,2020,Allier,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+376,2020,Allier,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+377,2020,Allier,2024-01-16 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+378,2020,Allier,2024-01-15 00:00:00+00:00,2024-01-15 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+379,2016,Zone Alpine Ain,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+380,2016,Zone Alpine Ain,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+381,2016,Zone Alpine Ain,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+382,2016,Zone Alpine Ain,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+383,2016,Zone Alpine Ain,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+384,2016,Zone Alpine Ain,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+385,2013,Zone Alpine Isère,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+386,2013,Zone Alpine Isère,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+387,2013,Zone Alpine Isère,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+388,2013,Zone Alpine Isère,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+389,2013,Zone Alpine Isère,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+390,2013,Zone Alpine Isère,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+391,2007,Ouest Ardèche,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+392,2007,Ouest Ardèche,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+393,2007,Ouest Ardèche,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+394,2007,Ouest Ardèche,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+395,2007,Ouest Ardèche,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+396,2007,Ouest Ardèche,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+397,2004,Contreforts Massif Central,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+398,2004,Contreforts Massif Central,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+399,2004,Contreforts Massif Central,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+400,2004,Contreforts Massif Central,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+401,2004,Contreforts Massif Central,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+402,2004,Contreforts Massif Central,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+403,2010,Vallée Maurienne Tarentaise,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+404,2010,Vallée Maurienne Tarentaise,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+405,2010,Vallée Maurienne Tarentaise,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+406,2010,Vallée Maurienne Tarentaise,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+407,2010,Vallée Maurienne Tarentaise,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+408,2010,Vallée Maurienne Tarentaise,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+409,2011,Zone des Coteaux,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+410,2011,Zone des Coteaux,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+411,2011,Zone des Coteaux,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+412,2011,Zone des Coteaux,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+413,2011,Zone des Coteaux,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+414,2011,Zone des Coteaux,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+415,2012,Zone urbaine des Pays de Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+416,2012,Zone urbaine des Pays de Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+417,2012,Zone urbaine des Pays de Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+418,2012,Zone urbaine des Pays de Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+419,2012,Zone urbaine des Pays de Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+420,2012,Zone urbaine des Pays de Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+421,2001,Bassin Lémanique,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+422,2001,Bassin Lémanique,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+423,2001,Bassin Lémanique,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+424,2001,Bassin Lémanique,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+425,2001,Bassin Lémanique,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+426,2001,Bassin Lémanique,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+427,2002,Bassin Stéphanois,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+428,2002,Bassin Stéphanois,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+429,2002,Bassin Stéphanois,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+430,2002,Bassin Stéphanois,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+431,2002,Bassin Stéphanois,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+432,2002,Bassin Stéphanois,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+433,2006,Ouest Ain,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+434,2006,Ouest Ain,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+435,2006,Ouest Ain,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+436,2006,Ouest Ain,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+437,2006,Ouest Ain,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+438,2006,Ouest Ain,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+439,2014,Zone Alpine Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+440,2014,Zone Alpine Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+441,2014,Zone Alpine Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+442,2014,Zone Alpine Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+443,2014,Zone Alpine Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+444,2014,Zone Alpine Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+445,2008,Vallée de l'Arve,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+446,2008,Vallée de l'Arve,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+447,2008,Vallée de l'Arve,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+448,2008,Vallée de l'Arve,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+449,2008,Vallée de l'Arve,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+450,2008,Vallée de l'Arve,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+451,2003,Bassin Lyon Nord-Isère,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+452,2003,Bassin Lyon Nord-Isère,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+453,2003,Bassin Lyon Nord-Isère,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+454,2003,Bassin Lyon Nord-Isère,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+455,2003,Bassin Lyon Nord-Isère,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+456,2003,Bassin Lyon Nord-Isère,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+457,2000,Bassin Grenoblois,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+458,2000,Bassin Grenoblois,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+459,2000,Bassin Grenoblois,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+460,2000,Bassin Grenoblois,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+461,2000,Bassin Grenoblois,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+462,2000,Bassin Grenoblois,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+463,2005,Est Drôme,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+464,2005,Est Drôme,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+465,2005,Est Drôme,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+466,2005,Est Drôme,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+467,2005,Est Drôme,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+468,2005,Est Drôme,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+469,2009,Vallée du Rhône,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+470,2009,Vallée du Rhône,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+471,2009,Vallée du Rhône,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+472,2009,Vallée du Rhône,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+473,2009,Vallée du Rhône,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+474,2009,Vallée du Rhône,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+475,2015,Zone Alpine Haute-Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+476,2015,Zone Alpine Haute-Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+477,2015,Zone Alpine Haute-Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+478,2015,Zone Alpine Haute-Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+479,2015,Zone Alpine Haute-Savoie,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+480,2015,Zone Alpine Haute-Savoie,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+481,2018,Puy-de-Dôme,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+482,2018,Puy-de-Dôme,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+483,2018,Puy-de-Dôme,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+484,2018,Puy-de-Dôme,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+485,2018,Puy-de-Dôme,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+486,2018,Puy-de-Dôme,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+487,2017,Haute-Loire,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+488,2017,Haute-Loire,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+489,2017,Haute-Loire,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+490,2017,Haute-Loire,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+491,2017,Haute-Loire,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+492,2017,Haute-Loire,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+493,2019,Cantal,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+494,2019,Cantal,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+495,2019,Cantal,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+496,2019,Cantal,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+497,2019,Cantal,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+498,2019,Cantal,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+499,2020,Allier,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+500,2020,Allier,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+501,2020,Allier,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+502,2020,Allier,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+503,2020,Allier,2024-01-17 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+504,2020,Allier,2024-01-16 00:00:00+00:00,2024-01-16 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+505,2016,Zone Alpine Ain,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+506,2016,Zone Alpine Ain,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+507,2016,Zone Alpine Ain,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+508,2016,Zone Alpine Ain,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+509,2016,Zone Alpine Ain,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+510,2016,Zone Alpine Ain,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.511348788,46.264469398
+511,2013,Zone Alpine Isère,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+512,2013,Zone Alpine Isère,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+513,2013,Zone Alpine Isère,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+514,2013,Zone Alpine Isère,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+515,2013,Zone Alpine Isère,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+516,2013,Zone Alpine Isère,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[5.74019176900001, 45.229894851]","[5.679118803, 45.247561807]"
+517,2007,Ouest Ardèche,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+518,2007,Ouest Ardèche,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+519,2007,Ouest Ardèche,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+520,2007,Ouest Ardèche,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+521,2007,Ouest Ardèche,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+522,2007,Ouest Ardèche,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.862609484,44.743957331
+523,2004,Contreforts Massif Central,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+524,2004,Contreforts Massif Central,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+525,2004,Contreforts Massif Central,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+526,2004,Contreforts Massif Central,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+527,2004,Contreforts Massif Central,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+528,2004,Contreforts Massif Central,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[4.020483388, 45.328172353]","[3.97810627700001, 45.37566835]"
+529,2010,Vallée Maurienne Tarentaise,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+530,2010,Vallée Maurienne Tarentaise,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+531,2010,Vallée Maurienne Tarentaise,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+532,2010,Vallée Maurienne Tarentaise,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+533,2010,Vallée Maurienne Tarentaise,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+534,2010,Vallée Maurienne Tarentaise,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.711440797,45.14486295
+535,2011,Zone des Coteaux,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+536,2011,Zone des Coteaux,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+537,2011,Zone des Coteaux,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+538,2011,Zone des Coteaux,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+539,2011,Zone des Coteaux,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+540,2011,Zone des Coteaux,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.570351392,45.582501582
+541,2012,Zone urbaine des Pays de Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+542,2012,Zone urbaine des Pays de Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+543,2012,Zone urbaine des Pays de Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+544,2012,Zone urbaine des Pays de Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+545,2012,Zone urbaine des Pays de Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+546,2012,Zone urbaine des Pays de Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.460261825,45.683970925
+547,2001,Bassin Lémanique,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+548,2001,Bassin Lémanique,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+549,2001,Bassin Lémanique,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+550,2001,Bassin Lémanique,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+551,2001,Bassin Lémanique,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+552,2001,Bassin Lémanique,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.809577462,45.993344217
+553,2002,Bassin Stéphanois,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+554,2002,Bassin Stéphanois,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+555,2002,Bassin Stéphanois,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+556,2002,Bassin Stéphanois,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+557,2002,Bassin Stéphanois,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+558,2002,Bassin Stéphanois,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.226570306,45.390175614
+559,2006,Ouest Ain,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+560,2006,Ouest Ain,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+561,2006,Ouest Ain,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+562,2006,Ouest Ain,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+563,2006,Ouest Ain,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+564,2006,Ouest Ain,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.435217917,45.829750919
+565,2014,Zone Alpine Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+566,2014,Zone Alpine Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+567,2014,Zone Alpine Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+568,2014,Zone Alpine Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+569,2014,Zone Alpine Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+570,2014,Zone Alpine Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.601977652, 45.619370513]","[6.582957547, 45.641154033]"
+571,2008,Vallée de l'Arve,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+572,2008,Vallée de l'Arve,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+573,2008,Vallée de l'Arve,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+574,2008,Vallée de l'Arve,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+575,2008,Vallée de l'Arve,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+576,2008,Vallée de l'Arve,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,6.871726873,46.051150518
+577,2003,Bassin Lyon Nord-Isère,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+578,2003,Bassin Lyon Nord-Isère,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+579,2003,Bassin Lyon Nord-Isère,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+580,2003,Bassin Lyon Nord-Isère,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+581,2003,Bassin Lyon Nord-Isère,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+582,2003,Bassin Lyon Nord-Isère,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+583,2000,Bassin Grenoblois,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+584,2000,Bassin Grenoblois,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+585,2000,Bassin Grenoblois,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+586,2000,Bassin Grenoblois,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+587,2000,Bassin Grenoblois,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+588,2000,Bassin Grenoblois,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.502455281,45.26341871
+589,2005,Est Drôme,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+590,2005,Est Drôme,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+591,2005,Est Drôme,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+592,2005,Est Drôme,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+593,2005,Est Drôme,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+594,2005,Est Drôme,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,5.227543156,45.077226313
+595,2009,Vallée du Rhône,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+596,2009,Vallée du Rhône,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+597,2009,Vallée du Rhône,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+598,2009,Vallée du Rhône,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+599,2009,Vallée du Rhône,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+600,2009,Vallée du Rhône,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,4.549298192,44.32463879
+601,2015,Zone Alpine Haute-Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+602,2015,Zone Alpine Haute-Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+603,2015,Zone Alpine Haute-Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+604,2015,Zone Alpine Haute-Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+605,2015,Zone Alpine Haute-Savoie,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+606,2015,Zone Alpine Haute-Savoie,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,"[6.730509586, 45.965363275]","[6.732043451, 46.000595567]"
+607,2018,Puy-de-Dôme,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+608,2018,Puy-de-Dôme,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+609,2018,Puy-de-Dôme,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+610,2018,Puy-de-Dôme,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+611,2018,Puy-de-Dôme,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+612,2018,Puy-de-Dôme,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.103709691,45.354134286
+613,2017,Haute-Loire,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+614,2017,Haute-Loire,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+615,2017,Haute-Loire,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+616,2017,Haute-Loire,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+617,2017,Haute-Loire,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+618,2017,Haute-Loire,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.361347631,44.971408092
+619,2019,Cantal,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+620,2019,Cantal,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+621,2019,Cantal,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+622,2019,Cantal,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+623,2019,Cantal,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+624,2019,Cantal,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,2.508404948,45.478343899
+625,2020,Allier,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+626,2020,Allier,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,8,Dioxyde d'azote,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+627,2020,Allier,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+628,2020,Allier,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,7,Ozone,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+629,2020,Allier,2024-01-18 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
+630,2020,Allier,2024-01-17 00:00:00+00:00,2024-01-17 00:00:00+00:00,5,Particules PM10,PAS DE DEPASSEMENT,#19FF19,aucun,aucun,3.899526016,46.275930712
