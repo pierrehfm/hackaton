@@ -4,34 +4,35 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      {/* Section de l'image avec l'ombre */}
+
+      {/* Section d'introduction avec l'image de fond */}
       <div style={styles.heroSection}>
         <div style={styles.overlay}></div>
         <div style={styles.textContent}>
           <h1 style={styles.title}>Bienvenue à Lyon</h1>
-          <p style={styles.description}>Explorez la beauté de la ville de Lyon, son histoire, sa culture et bien plus encore.</p>
+          <p style={styles.description}>Découvrez les statistiques locales de la qualité de l'air, du trafic routier et bien plus pour une meilleure qualité de vie à Lyon.</p>
         </div>
       </div>
 
-      {/* Section d'information */}
+      {/* Section d'informations générales sur Lyon */}
       <div style={styles.infoSection}>
         <h2 style={styles.sectionTitle}>À propos de Lyon</h2>
         <p style={styles.sectionContent}>
-          Lyon, classée au patrimoine mondial de l'UNESCO, est une ville réputée pour son histoire riche, sa gastronomie et sa culture vibrante. 
-          De ses traboules secrètes à ses célèbres bouchons, Lyon est un véritable centre culturel.
+          Lyon, ville dynamique et connectée, est un pôle économique et culturel majeur en France. Elle est également reconnue pour son engagement dans l'amélioration de la qualité de vie de ses habitants, notamment à travers des statistiques et des données ouvertes sur la qualité de l'air et le trafic.
         </p>
       </div>
 
-      {/* Liens vers d'autres pages */}
+      {/* Section pour accéder aux statistiques */}
       <div style={styles.linkSection}>
-        <h2 style={styles.sectionTitle}>Explorez la ville</h2>
+        <h2 style={styles.sectionTitle}>Accédez aux statistiques</h2>
         <div style={styles.buttonContainer}>
-          <button style={styles.button}>Découvrez les monuments</button>
-          <button style={styles.button}>Les événements à venir</button>
+          <button style={styles.button}>Qualité de l'air</button>
+          <button style={styles.button}>Trafic routier</button>
+          <button style={styles.button}>Statistiques croisées</button>
         </div>
       </div>
 
-      {/* Section galerie d'images */}
+      {/* Section Galerie avec des images */}
       <div style={styles.gallerySection}>
         <h2 style={styles.sectionTitle}>Galerie de Lyon</h2>
         <div style={styles.gallery}>
@@ -46,10 +47,10 @@ function Home() {
 
 const styles = {
   heroSection: {
-    backgroundImage: 'url("https://www.visiterlyon.com/var/site/storage/images/8/8/7/4/684788-2-fre-FR/491d46893860-shutterstock_280295297.jpg")', // Remplace par l'URL de l'image
+    backgroundImage: 'url("https://www.visiterlyon.com/var/site/storage/images/8/8/7/4/684788-2-fre-FR/491d46893860-shutterstock_280295297.jpg")', // Image de fond
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    height: '100vh', // Prend toute la hauteur de l'écran
+    height: '100vh',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -64,11 +65,11 @@ const styles = {
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.4)', // Ombre noire avec opacité
-    zIndex: 0, // C'est l'overlay d'ombre, donc derrière le texte
+    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    zIndex: 0,
   },
   textContent: {
-    zIndex: 1, // Le texte est au-dessus de l'ombre
+    zIndex: 1,
     textAlign: 'center',
   },
   title: {
