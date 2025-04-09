@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-const { createEmailTable } = require('./models/emails');
 require('dotenv').config();
 
 const app = express();
@@ -17,14 +16,6 @@ app.use('/api', emailsRoutes);
 
 const PORT = process.env.PORT || 3001;
 const URL_API = process.env.URL_API
-
-createEmailTable()
-  .then(() => {
-    console.log('✅ Table "emails" vérifiée ou créée.');
-  })
-  .catch((err) => {
-    console.error('❌ Erreur création table :', err);
-  });
 
 app.listen(PORT, () => {
   console.log(`Serveur lancé sur ${URL_API}:${PORT}`);

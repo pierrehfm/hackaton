@@ -1,11 +1,9 @@
-// src/pages/Home.js
 import React from 'react';
 
 function Home() {
   return (
     <div>
 
-      {/* Section d'introduction avec l'image de fond */}
       <div style={styles.heroSection}>
         <div style={styles.overlay}></div>
         <div style={styles.textContent}>
@@ -14,7 +12,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Section d'informations générales sur Lyon */}
       <div style={styles.infoSection}>
         <h2 style={styles.sectionTitle}>À propos de Lyon</h2>
         <p style={styles.sectionContent}>
@@ -22,7 +19,6 @@ function Home() {
         </p>
       </div>
 
-      {/* Section pour accéder aux statistiques */}
       <div style={styles.linkSection}>
         <h2 style={styles.sectionTitle}>Accédez aux statistiques</h2>
         <div style={styles.buttonContainer}>
@@ -32,7 +28,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Section Galerie avec des images */}
       <div style={styles.gallerySection}>
         <h2 style={styles.sectionTitle}>Galerie de Lyon</h2>
         <div style={styles.gallery}>

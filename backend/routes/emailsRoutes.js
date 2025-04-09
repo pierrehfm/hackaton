@@ -1,9 +1,7 @@
-// routes/emailRoutes.js
 const express = require('express');
 const router = express.Router();
 const { saveEmail, getEmails } = require('../models/emails');
 
-// Route pour enregistrer un email
 router.post('/emails', async (req, res) => {
   try {
     const { email } = req.body;
@@ -14,7 +12,6 @@ router.post('/emails', async (req, res) => {
   }
 });
 
-// Route pour obtenir les emails sauvegardés
 router.get('/emails', async (req, res) => {
   try {
     const emails = await getEmails();

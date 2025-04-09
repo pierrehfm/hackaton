@@ -1,15 +1,15 @@
 // models/email.js
 const { Pool } = require('pg');
-require('dotenv').config();  // Charger les variables d'environnement à partir du fichier .env
+require('dotenv').config();
 
 const pool = new Pool({
-  user: process.env.PGUSER,          // Utiliser la variable d'environnement PGUSER
-  host: process.env.PGHOST,          // Utiliser la variable d'environnement PGHOST
-  database: process.env.PGDATABASE,  // Utiliser la variable d'environnement PGDATABASE
-  password: process.env.PGPASSWORD,  // Utiliser la variable d'environnement PGPASSWORD
-  port: process.env.PGPORT || 5432,  // Utiliser la variable d'environnement PGPORT, avec une valeur par défaut si non définie
+  user: process.env.PGUSER,
+  host: process.env.PGHOST,
+  database: process.env.PGDATABASE,
+  password: process.env.PGPASSWORD,
+  port: process.env.PGPORT || 5432,
   ssl: {
-    rejectUnauthorized: false, // utile avec Neon et certaines plateformes
+    rejectUnauthorized: false,
   },
 });
 

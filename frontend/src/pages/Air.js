@@ -36,25 +36,21 @@ function Air() {
   const [email, setEmail] = useState('');
   const [emailsList, setEmailsList] = useState([]);
 
-  // Récupérer les données de la qualité de l'air
   useEffect(() => {
-    fetch('http://localhost:3001/api/air')
+    fetch(`${process.env.REACT_APP_API_URL}/api/air`)
       .then((res) => res.json())
       .then((json) => {
         setData(json);
-        // const zones = [...new Set(json.map((item) => item.lib_zone))];
         setSelectedZone('Bassin Lyon Nord-Isère');
       });
   }, []);
 
-  // Récupérer la liste des emails depuis le backend
   useEffect(() => {
-    fetch('http://localhost:3001/api/emails')
+    fetch(`${process.env.REACT_APP_API_URL}/api/emails`)
       .then((res) => res.json())
       .then((json) => setEmailsList(json));
   }, []);
 
-  // Filtrer les données selon la zone sélectionnée
   useEffect(() => {
     if (!selectedZone || data.length === 0) return;
 
@@ -90,12 +86,11 @@ function Air() {
 
   const zones = [...new Set(data.map((item) => item.lib_zone))];
 
-  // Fonction de soumission du formulaire d'email
   const handleEmailSubmit = async (e) => {
     e.preventDefault();
     if (email) {
       try {
-        const response = await fetch('http://localhost:3001/api/emails', {
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/api/emails`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -187,47 +182,45 @@ function Air() {
         </div>
       )}
 
-      {/* Formulaire d'email */}
-<div style={{
-  marginTop: '2rem',
-  padding: '1rem',
-  backgroundColor: '#f9f9f9',
-  borderRadius: '8px',
-  maxWidth: '500px',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-  boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
-}}>
-  <h3>Inscrire une adresse email pour recevoir une alerte</h3>
-  <form onSubmit={handleEmailSubmit}>
-    <input
-      type="email"
-      value={email}
-      onChange={(e) => setEmail(e.target.value)}
-      placeholder="Entrez votre adresse email"
-      style={{
-        padding: '0.5rem',
-        marginBottom: '1rem',
-        width: '100%',
-        borderRadius: '5px',
-        border: '1px solid #ccc',
-      }}
-    />
-    <button
-      type="submit"
-      style={{
-        padding: '0.5rem 1rem',
-        backgroundColor: '#5a67d8',
-        color: 'white',
-        border: 'none',
-        borderRadius: '5px',
-      }}
-    >
-      Sauvegarder
-    </button>
-  </form>
-</div>
-
+      <div style={{
+        marginTop: '2rem',
+        padding: '1rem',
+        backgroundColor: '#f9f9f9',
+        borderRadius: '8px',
+        maxWidth: '500px',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+      }}>
+        <h3>Inscrire une adresse email pour recevoir une alerte</h3>
+        <form onSubmit={handleEmailSubmit}>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Entrez votre adresse email"
+            style={{
+              padding: '0.5rem',
+              marginBottom: '1rem',
+              width: '100%',
+              borderRadius: '5px',
+              border: '1px solid #ccc',
+            }}
+          />
+          <button
+            type="submit"
+            style={{
+              padding: '0.5rem 1rem',
+              backgroundColor: '#5a67d8',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+            }}
+          >
+            Sauvegarder
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
