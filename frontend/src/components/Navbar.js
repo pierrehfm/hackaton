@@ -1,19 +1,18 @@
-// src/components/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <nav style={styles.navbar}>
-      <div style={styles.logo}>
-        <img src="/path/to/logo.png" alt="Logo" style={styles.logoImage} />
-      </div>
       <ul style={styles.navList}>
         <li style={styles.navItem}>
           <Link to="/home" style={styles.navLink}>Accueil</Link>
         </li>
         <li style={styles.navItem}>
           <Link to="/air" style={styles.navLink}>Qualité de l'air</Link>
+        </li>
+        <li style={styles.navItem}>
+          <Link to="/trafic" style={styles.navLink}>Trafic</Link>
         </li>
       </ul>
     </nav>

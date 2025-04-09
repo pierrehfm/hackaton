@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate  } from 'react-router-
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Air from './pages/Air';
+import Trafic from './pages/Trafic';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
          <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/air" element={<Air />} />
+        <Route path="/trafic" element={<Trafic />} />
       </Routes>
     </Router>
   );
