@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; 
 
 function Home() {
+
+  const navigate = useNavigate();
+  const redirectToPage = (page) => {
+    navigate(page);
+  };
+
   return (
     <div>
 
@@ -22,18 +29,18 @@ function Home() {
       <div style={styles.linkSection}>
         <h2 style={styles.sectionTitle}>Accédez aux statistiques</h2>
         <div style={styles.buttonContainer}>
-          <button style={styles.button}>Qualité de l'air</button>
-          <button style={styles.button}>Trafic routier</button>
-          <button style={styles.button}>Statistiques croisées</button>
+          <button style={styles.button} onClick={() => redirectToPage('/air')}>Qualité de l'air</button>
+          <button style={styles.button} onClick={() => redirectToPage('/trafic')}>Trafic routier</button>
+          <button style={styles.button} onClick={() => redirectToPage('/analyse')}>Statistiques croisées</button>
         </div>
       </div>
 
       <div style={styles.gallerySection}>
         <h2 style={styles.sectionTitle}>Galerie de Lyon</h2>
         <div style={styles.gallery}>
-          <img src="https://www.visiterlyon.com/var/site/storage/images/8/8/7/4/684788-2-fre-FR/491d46893860-shutterstock_280295297.jpg" alt="Image 1" style={styles.galleryImage} />
-          <img src="https://www.visiterlyon.com/var/site/storage/images/8/8/7/4/684788-2-fre-FR/491d46893860-shutterstock_280295297.jpg" alt="Image 2" style={styles.galleryImage} />
-          <img src="https://www.visiterlyon.com/var/site/storage/images/8/8/7/4/684788-2-fre-FR/491d46893860-shutterstock_280295297.jpg" alt="Image 3" style={styles.galleryImage} />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmE5knc-cKo6urNWdpeJuNuhmdPGVsElk_g&s" alt="Image 1" style={styles.galleryImage} />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlj6Pt3vxgO8vJEhFUdP71ar57uofMfwZJnw&s" alt="Image 2" style={styles.galleryImage} />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlc-94h9Ok49LkoO5AvvPoEzHkU8W2x8Vd8w&s" alt="Image 3" style={styles.galleryImage} />
         </div>
       </div>
     </div>
