@@ -9,13 +9,13 @@ function Navbar() {
           <Link to="/home" style={styles.navLink}>Accueil</Link>
         </li>
         <li style={styles.navItem}>
-          <Link to="/dashboard" style={styles.navLink}>Dashboard</Link>
-        </li>
-        <li style={styles.navItem}>
-          <Link to="/air" style={styles.navLink}>Qualité de l'air</Link>
+          <Link to="/air" style={styles.navLink}>Pollution</Link>
         </li>
         <li style={styles.navItem}>
           <Link to="/trafic" style={styles.navLink}>Trafic</Link>
+        </li>
+        <li style={styles.navItem}>
+          <Link to="/analyse" style={styles.navLink}>Analyse</Link>
         </li>
       </ul>
     </nav>
