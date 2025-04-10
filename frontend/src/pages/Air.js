@@ -92,7 +92,7 @@ function Air() {
 
     const sortedData = Object.values(result).sort(
       (a, b) =>
-        new Date(a.date.split('/').reverse().join('-')) -
+        new Date(a.date.split('/').reverse().join('-')) - 
         new Date(b.date.split('/').reverse().join('-'))
     );
     
@@ -144,33 +144,81 @@ function Air() {
     }
   };
 
-  return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif', backgroundColor: '#f4f6f8', minHeight: '100vh' }}>
-      <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-        <h1 style={{ fontSize: '2rem', marginBottom: '1rem', marginTop: '5rem', color: '#444' }}></h1> 
-        <div style={{
-          backgroundColor: 'white',
-          borderRadius: '12px',
-          padding: '1.5rem',
-          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
-          marginBottom: '2rem',
-        }}>
+  const styles = {
+    container: {
+      padding: '2rem',
+      fontFamily: 'sans-serif',
+      backgroundColor: '#f4f6f8',
+      minHeight: '100vh',
+    },
+    innerContainer: {
+      maxWidth: '1000px',
+      margin: '0 auto',
+    },
+    section: {
+      backgroundColor: 'white',
+      borderRadius: '12px',
+      padding: '1.5rem',
+      boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+      marginBottom: '2rem',
+    },
+    label: {
+      display: 'block',
+      marginBottom: '0.5rem',
+      fontWeight: 'bold',
+      color: '#444',
+    },
+    select: {
+      padding: '0.5rem 1rem',
+      borderRadius: '8px',
+      border: '1px solid #ccc',
+      backgroundColor: '#f9f9f9',
+      fontSize: '16px',
+      width: '100%',
+    },
+    h1: {
+      fontSize: '2rem',
+      marginBottom: '1rem',
+      marginTop: '5rem',
+      color: '#444',
+    },
+    h2: {
+      marginBottom: '1rem',
+      color: '#444',
+    },
+    input: {
+      padding: '0.75rem',
+      marginBottom: '1rem',
+      width: '100%',
+      borderRadius: '8px',
+      border: '1px solid #ccc',
+      fontSize: '16px',
+    },
+    button: {
+      padding: '0.75rem 1.5rem',
+      backgroundColor: '#5a67d8',
+      color: 'white',
+      border: 'none',
+      borderRadius: '8px',
+      fontSize: '16px',
+      cursor: 'pointer',
+      width: '100%',
+    },
+  };
 
-        <label htmlFor="zone-select" style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color:'#444' }}>
+  return (
+    <div style={styles.container}>
+      <div style={styles.innerContainer}>
+        <h1 style={styles.h1}></h1>
+        <div style={styles.section}>
+          <label htmlFor="zone-select" style={styles.label}>
             Sélectionner une zone :
           </label>
           <select
             id="zone-select"
             value={selectedZone}
             onChange={(e) => setSelectedZone(e.target.value)}
-            style={{
-              padding: '0.5rem 1rem',
-              borderRadius: '8px',
-              border: '1px solid #ccc',
-              backgroundColor: '#f9f9f9',
-              fontSize: '16px',
-              width: '100%',
-            }}
+            style={styles.select}
           >
             {zones.map((zone) => (
               <option key={zone} value={zone}>
@@ -178,15 +226,12 @@ function Air() {
               </option>
             ))}
           </select>
-          <h2 style={{ marginBottom: '1rem', color: '#444' }}>Évolution des polluants (7 derniers jours)</h2>
+          <h2 style={styles.h2}>Évolution des polluants</h2>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={zoneData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
               <XAxis dataKey="date" />
               <YAxis domain={[0, 2]} ticks={[0, 1, 2]} tickFormatter={customTickFormatter} />
-              <Tooltip
-                formatter={(value) => valueToEtat(value)}
-                labelFormatter={(label) => `Date : ${label}`}
-              />
+              <Tooltip formatter={(value) => valueToEtat(value)} labelFormatter={(label) => `Date : ${label}`} />
               <Legend />
               <Line type="monotone" dataKey="Dioxyde d'azote" stroke="#8884d8" />
               <Line type="monotone" dataKey="Ozone" stroke="#82ca9d" />
@@ -194,44 +239,18 @@ function Air() {
             </LineChart>
           </ResponsiveContainer>
         </div>
-  
-        <div style={{
-          backgroundColor: 'white',
-          borderRadius: '12px',
-          padding: '1.5rem',
-          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
-          // maxWidth: '500px',
-          margin: '0 auto',
-        }}>
-          <h3 style={{ marginBottom: '1rem', color: '#444' }}>Recevoir les alertes par email</h3>
+
+        <div style={styles.section}>
+          <h3 style={styles.h2}>Recevoir les alertes par email</h3>
           <form onSubmit={handleEmailSubmit}>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Entrez votre adresse email"
-              style={{
-                padding: '0.75rem',
-                marginBottom: '1rem',
-                width: '100%',
-                borderRadius: '8px',
-                border: '1px solid #ccc',
-                fontSize: '16px',
-              }}
+              style={styles.input}
             />
-            <button
-              type="submit"
-              style={{
-                padding: '0.75rem 1.5rem',
-                backgroundColor: '#5a67d8',
-                color: 'white',
-                border: 'none',
-                borderRadius: '8px',
-                fontSize: '16px',
-                cursor: 'pointer',
-                width: '100%',
-              }}
-            >
+            <button type="submit" style={styles.button}>
               Sauvegarder
             </button>
           </form>
@@ -239,7 +258,6 @@ function Air() {
       </div>
     </div>
   );
-  
 }
 
 export default Air;

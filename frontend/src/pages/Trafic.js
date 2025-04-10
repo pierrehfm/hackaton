@@ -44,20 +44,32 @@ function Trafic() {
       });
   }, []);
 
-  const cardStyle = {
-    backgroundColor: '#ffffff',
-    borderRadius: '1rem',
-    padding: '2rem',
-    margin: '2rem auto',
-    maxWidth: '600px',
-    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
-    marginTop: '5rem',
+  const styles = {
+    container: {
+      padding: '2rem',
+      fontFamily: 'sans-serif',
+      backgroundColor: '#f4f6f8',
+    },
+    card: {
+      backgroundColor: '#ffffff',
+      borderRadius: '1rem',
+      padding: '2rem',
+      margin: '2rem auto',
+      maxWidth: '600px',
+      boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+      marginTop: '5rem',
+    },
+    heading: {
+      marginBottom: '1rem',
+      textAlign: 'center',
+      color: '#2d3748',
+    },
   };
 
   return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif', backgroundColor: '#f4f6f8' }}>
-      <div style={cardStyle}>
-        <h2 style={{ marginBottom: '1rem', textAlign: 'center', color: '#2d3748' }}>
+    <div style={styles.container}>
+      <div style={styles.card}>
+        <h2 style={styles.heading}>
           Trafic routier moyen par heure
         </h2>
         <ResponsiveContainer width="100%" height={300}>
@@ -74,8 +86,8 @@ function Trafic() {
         </ResponsiveContainer>
       </div>
 
-      <div style={cardStyle}>
-        <h2 style={{ marginBottom: '1rem', textAlign: 'center', color: '#2d3748' }}>
+      <div style={styles.card}>
+        <h2 style={styles.heading}>
           Trafic routier par jour (30 derniers jours)
         </h2>
         <ResponsiveContainer width="100%" height={300}>

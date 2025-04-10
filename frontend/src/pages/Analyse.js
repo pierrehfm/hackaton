@@ -10,6 +10,7 @@ import {
   Cell,
 } from 'recharts';
 import dayjs from 'dayjs';
+import { useNavigate } from 'react-router-dom';
 
 function Analyse() {
   const [data, setData] = useState([]);
@@ -30,6 +31,12 @@ function Analyse() {
     const allZones = data.map((item) => item.zone);
     return Array.from(new Set(allZones));
   }, [data]);
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/avance');
+  };
 
   const groupedData = useMemo(() => {
     const filtered = data.filter((d) => d.zone === selectedZone);
@@ -65,37 +72,93 @@ function Analyse() {
       .sort((a, b) => dayjs(a.date, 'DD MMM') - dayjs(b.date, 'DD MMM'));
   }, [data, selectedZone]);
 
-  return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif', backgroundColor: '#f4f6f8' }}>
-      <div
-        style={{
-          backgroundColor: '#fff',
-          padding: '2rem',
-          borderRadius: '10px',
-          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-          marginBottom: '2rem',
-          marginTop: '5rem',
-        }}
-      >
-        <h2 style={{ textAlign: 'center', marginBottom: '2rem', color: '#444' }}>
-          Trafic routier & qualité de l’air par jour
-        </h2>
+  // Styles moved to a variable at the bottom
+  const styles = {
+    container: {
+      padding: '2rem',
+      fontFamily: 'sans-serif',
+      backgroundColor: '#f4f6f8',
+    },
+    paragraph: {
+      textAlign: 'left',
+      marginBottom: '2rem',
+      marginTop: '5rem',
+    },
+    highlightText: {
+      good: { color: '#48bb78' },
+      acceptable: { color: '#ecc94b' },
+      alert: { color: '#e53e3e' },
+    },
+    card: {
+      backgroundColor: '#fff',
+      padding: '2rem',
+      borderRadius: '10px',
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      marginBottom: '2rem',
+    },
+    header: {
+      textAlign: 'center',
+      marginBottom: '2rem',
+      color: '#444',
+    },
+    selectWrapper: {
+      textAlign: 'center',
+      marginBottom: '2rem',
+    },
+    selectLabel: {
+      marginRight: '1rem',
+      fontWeight: 'bold',
+      color: '#444',
+    },
+    select: {
+      padding: '0.5rem 1rem',
+      fontSize: '1rem',
+      borderRadius: '8px',
+      border: '1px solid #ccc',
+      minWidth: '250px',
+    },
+    button: {
+      padding: '0.75rem 1.5rem',
+      backgroundColor: '#5a67d8',
+      color: 'white',
+      border: 'none',
+      borderRadius: '8px',
+      fontSize: '16px',
+      cursor: 'pointer',
+      width: '300px',
+    },
+  };
 
-        <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-          <label htmlFor="zone-select" style={{ marginRight: '1rem', fontWeight: 'bold', color: '#444' }}>
+  return (
+    <div style={styles.container}>
+      <p style={styles.paragraph}>
+        Le graphique ci-dessus présente l'évolution du trafic routier et de la qualité de l’air au cours des derniers jours. Chaque barre représente la densité du trafic (en nombre de véhicules) pour un jour spécifique, tandis que la couleur de la barre vous indique l'état de la qualité de l'air à ce moment-là.
+      </p>
+      <p>
+        La qualité de l'air est <strong style={styles.highlightText.good}>bonne</strong>. Aucun dépassement des niveaux recommandés n’a été observé pour les polluants principaux (particules PM10, dioxyde d'azote, etc.).
+      </p>
+      <p>
+        La qualité de l'air est <strong style={styles.highlightText.acceptable}>acceptable</strong>, mais certains polluants ont atteint des niveaux qui recommandent des actions préventives pour la santé. Cela signifie qu'il y a des informations et recommandations à suivre pour minimiser l'exposition.
+      </p>
+      <p>
+        <strong style={styles.highlightText.alert}>Alerte</strong> sur la qualité de l'air : un ou plusieurs polluants ont dépassé les niveaux de sécurité, ce qui pourrait affecter la santé. Une attention particulière est recommandée, surtout pour les personnes sensibles.
+      </p>
+      <p>
+        Ces informations sont cruciales pour comprendre la relation entre le trafic routier et la qualité de l'air, et pour prendre des décisions éclairées afin de protéger votre santé et l’environnement.
+      </p>
+
+      <div style={styles.card}>
+        <h2 style={styles.header}>Trafic routier & qualité de l’air par jour</h2>
+
+        <div style={styles.selectWrapper}>
+          <label htmlFor="zone-select" style={styles.selectLabel}>
             Choisir une zone :
           </label>
           <select
             id="zone-select"
             value={selectedZone}
             onChange={(e) => setSelectedZone(e.target.value)}
-            style={{
-              padding: '0.5rem 1rem',
-              fontSize: '1rem',
-              borderRadius: '8px',
-              border: '1px solid #ccc',
-              minWidth: '250px',
-            }}
+            style={styles.select}
           >
             {zones.map((zone) => (
               <option key={zone} value={zone}>
@@ -143,50 +206,10 @@ function Analyse() {
           </BarChart>
         </ResponsiveContainer>
       </div>
-      <h2 style={{ textAlign: 'center', marginBottom: '2rem', color: '#444' }}>
-          Analyses plus approfondies
-        </h2>
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-        gap: '2rem',
-        gridTemplateColumns: 'repeat(2, 1fr)',
-        '@media (max-width: 768px)': {
-          gridTemplateColumns: '1fr',
-        }
-      }}>
-  {['/chart/analyse_spatiale.png',
-    '/chart/boxplots_numeriques.png',
-    '/chart/correlation_matrix.png',
-    '/chart/distributions_numeriques.png',
-    '/chart/evolution_temporelle.png',
-    '/chart/valeurs_aberrantes.png'].map((url, idx) => (
-      <div
-      key={idx}
-      style={{
-        backgroundColor: '#fff',
-        borderRadius: '8px',
-        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-        overflow: 'hidden',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <img
-        src={url}
-        alt={`Image ${idx + 1}`}
-        style={{
-          width: 'auto',
-          height: 'auto',
-          maxWidth: '100%',
-          maxHeight: '100%',
-        }}
-      />
-    </div>
-  ))}
-</div>
 
+      <button onClick={handleClick} style={styles.button}>
+        Voir des analyses plus approfondies
+      </button>
     </div>
   );
 }

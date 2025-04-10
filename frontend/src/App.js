@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Air from './pages/Air';
 import Trafic from './pages/Trafic';
 import Analyse from './pages/Analyse';
+import Avance from './pages/avance';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/analyse" element={<Analyse />} />
         <Route path="/air" element={<Air />} />
         <Route path="/trafic" element={<Trafic />} />
+        <Route path="/avance" element={<Avance />} />
       </Routes>
     </Router>
   );
