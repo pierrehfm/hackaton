@@ -5,6 +5,7 @@ exports.getTraficStats = async (req, res) => {
     const result = await pool.query(`
       SELECT horairedeb, SUM(debithorai) AS total
       FROM comptage_trafic
+      WHERE typepostem = 'Comptage tous véhicules'
       GROUP BY horairedeb
       ORDER BY horairedeb;
     `);
@@ -16,12 +17,18 @@ exports.getTraficStats = async (req, res) => {
   }
 };
 
-exports.getRoutesStats = async (req, res) => {
+
+exports.getTraficDaysStats = async (req, res) => {
   try {
-    const result = await pool.query('SELECT * FROM infrastructure_route');
+    const result = await pool.query(`
+      SELECT date, SUM(moyennejou) AS total
+      FROM comptage_trafic
+      WHERE typepostem = 'Comptage tous véhicules'
+      GROUP BY date
+      ORDER BY date;
+    `);
 
-
-    res.json(result);
+    res.json(result.rows); 
   } catch (err) {
     console.error('Erreur lors de la requête PostgreSQL :', err);
     res.status(500).json({ error: 'Erreur serveur' });

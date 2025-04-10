@@ -9,6 +9,9 @@ function Navbar() {
           <Link to="/home" style={styles.navLink}>Accueil</Link>
         </li>
         <li style={styles.navItem}>
+          <Link to="/dashboard" style={styles.navLink}>Dashboard</Link>
+        </li>
+        <li style={styles.navItem}>
           <Link to="/air" style={styles.navLink}>Qualité de l'air</Link>
         </li>
         <li style={styles.navItem}>
