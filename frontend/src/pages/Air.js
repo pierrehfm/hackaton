@@ -20,7 +20,16 @@ const etatToValue = (etat) => {
 };
 
 const valueToEtat = (val) => {
-  return etatLevels[val] || '';
+  switch (val) {
+    case 0:
+      return 'OK';
+    case 1:
+      return 'MOYEN';
+    case 2:
+      return 'ALERTE';
+    default:
+      return '';
+  }
 };
 
 const formatDate = (isoDate) => {
@@ -54,37 +63,59 @@ function Air() {
   useEffect(() => {
     if (!selectedZone || data.length === 0) return;
 
-    const filtered = data.filter((item) => item.lib_zone === selectedZone);
+    const filtered = data.filter((item) => item.zone === selectedZone);
     const result = {};
     let infoComment = '';
 
     filtered.forEach((item) => {
-      const rawDate = item.date_ech.split('T')[0];
+      const rawDate = item.date.split('T')[0];
       const date = formatDate(rawDate);
 
-      if (!result[date]) result[date] = { date };
-      result[date][item.lib_pol] = etatToValue(item.etat);
+      if (!result[date]) {
+        result[date] = {
+          date,
+          "Dioxyde d'azote": etatToValue('PAS DE DEPASSEMENT'),
+          "Ozone": etatToValue('PAS DE DEPASSEMENT'),
+          "Particules PM10": etatToValue('PAS DE DEPASSEMENT'),
+        };
+      }
+      result[date][item.polluant] = etatToValue(item.etat);
 
       if (
         item.etat === 'INFORMATION ET RECOMMANDATION' &&
-        item.com_long &&
-        item.com_long.toLowerCase() !== 'aucun'
+        item.commentaire &&
+        item.commentaire.toLowerCase() !== 'aucun'
       ) {
-        infoComment += `📍 ${date} - ${item.lib_pol} : ${item.com_long}\n`;
+        infoComment += `📍 ${date} - ${item.polluant} : ${item.commentaire}\n`;
       }
     });
 
-    setZoneData(
-      Object.values(result).sort(
-        (a, b) =>
-          new Date(a.date.split('/').reverse().join('-')) - 
-          new Date(b.date.split('/').reverse().join('-'))
-      )
+    const sortedData = Object.values(result).sort(
+      (a, b) =>
+        new Date(a.date.split('/').reverse().join('-')) -
+        new Date(b.date.split('/').reverse().join('-'))
     );
+    
+    const last7Days = sortedData.slice(-7);
+    
+    setZoneData(last7Days);
     setCommentaire(infoComment.trim());
   }, [selectedZone, data]);
 
-  const zones = [...new Set(data.map((item) => item.lib_zone))];
+  const zones = [...new Set(data.map((item) => item.zone).filter(Boolean))];
+
+  const customTickFormatter = (val) => {
+    switch (val) {
+      case 0:
+        return "OK";
+      case 1:
+        return "MOYEN";
+      case 2:
+        return "ALERTE";
+      default:
+        return "";
+    }
+  };
 
   const handleEmailSubmit = async (e) => {
     e.preventDefault();
@@ -140,15 +171,19 @@ function Air() {
         ))}
       </select>
 
-      <div style={{ width: '100%', display: 'flex'}}>
-        <ResponsiveContainer width="80%" height={300}>
-          <LineChart data={zoneData} margin={{ top: 50, right: 50, left: 200, bottom: 50 }}>
+      <div style={{
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+      }}>
+        <ResponsiveContainer width="100%" height={300}>
+          <LineChart data={zoneData} margin={{ top: 50, right: 30, left: 20, bottom: 50 }}>
             
             <XAxis dataKey="date" />
             <YAxis
-              domain={[0, 2]}
-              ticks={[0, 1, 2]}
-              tickFormatter={(val) => valueToEtat(val)}
+              domain={[0, 2]} 
+              ticks={[0, 1, 2]} 
+              tickFormatter={customTickFormatter}
             />
             <Tooltip
               formatter={(value) => valueToEtat(value)}
@@ -161,26 +196,6 @@ function Air() {
           </LineChart>
         </ResponsiveContainer>
       </div>
-
-      {commentaire && (
-        <div
-          style={{
-            marginTop: '2rem',
-            backgroundColor: '#fffbe6',
-            padding: '1rem',
-            borderRadius: '8px',
-            border: '1px solid #ffe58f',
-            whiteSpace: 'pre-line',
-            maxWidth: '80%',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-          }}
-        >
-          <strong>📣 Recommandations :</strong>
-          <br />
-          {commentaire}
-        </div>
-      )}
 
       <div style={{
         marginTop: '2rem',
