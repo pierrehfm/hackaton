@@ -145,99 +145,101 @@ function Air() {
   };
 
   return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h2 style={{ marginBottom: '1rem' }}>Qualité de l'air</h2>
-
-      <label htmlFor="zone-select" style={{ marginRight: '1rem', fontWeight: 'bold' }}>
-        Sélectionner une zone :
-      </label>
-      <select
-        id="zone-select"
-        value={selectedZone}
-        onChange={(e) => setSelectedZone(e.target.value)}
-        style={{
-          padding: '0.5rem 1rem',
-          borderRadius: '8px',
-          border: '1px solid #ccc',
-          backgroundColor: '#f9f9f9',
+    <div style={{ padding: '2rem', fontFamily: 'sans-serif', backgroundColor: '#f4f6f8', minHeight: '100vh' }}>
+      <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
+        <h1 style={{ fontSize: '2rem', marginBottom: '1rem', marginTop: '5rem', color: '#444' }}></h1> 
+        <div style={{
+          backgroundColor: 'white',
+          borderRadius: '12px',
+          padding: '1.5rem',
+          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
           marginBottom: '2rem',
-          fontSize: '16px',
-        }}
-      >
-        {zones.map((zone) => (
-          <option key={zone} value={zone}>
-            {zone}
-          </option>
-        ))}
-      </select>
+        }}>
 
-      <div style={{
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-      }}>
-        <ResponsiveContainer width="100%" height={300}>
-          <LineChart data={zoneData} margin={{ top: 50, right: 30, left: 20, bottom: 50 }}>
-            
-            <XAxis dataKey="date" />
-            <YAxis
-              domain={[0, 2]} 
-              ticks={[0, 1, 2]} 
-              tickFormatter={customTickFormatter}
-            />
-            <Tooltip
-              formatter={(value) => valueToEtat(value)}
-              labelFormatter={(label) => `Date : ${label}`}
-            />
-            <Legend />
-            <Line type="monotone" dataKey="Dioxyde d'azote" stroke="#8884d8" />
-            <Line type="monotone" dataKey="Ozone" stroke="#82ca9d" />
-            <Line type="monotone" dataKey="Particules PM10" stroke="#ff7300" />
-          </LineChart>
-        </ResponsiveContainer>
-      </div>
-
-      <div style={{
-        marginTop: '2rem',
-        padding: '1rem',
-        backgroundColor: '#f9f9f9',
-        borderRadius: '8px',
-        maxWidth: '500px',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
-      }}>
-        <h3>Inscrire une adresse email pour recevoir une alerte</h3>
-        <form onSubmit={handleEmailSubmit}>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Entrez votre adresse email"
-            style={{
-              padding: '0.5rem',
-              marginBottom: '1rem',
-              width: '100%',
-              borderRadius: '5px',
-              border: '1px solid #ccc',
-            }}
-          />
-          <button
-            type="submit"
+        <label htmlFor="zone-select" style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color:'#444' }}>
+            Sélectionner une zone :
+          </label>
+          <select
+            id="zone-select"
+            value={selectedZone}
+            onChange={(e) => setSelectedZone(e.target.value)}
             style={{
               padding: '0.5rem 1rem',
-              backgroundColor: '#5a67d8',
-              color: 'white',
-              border: 'none',
-              borderRadius: '5px',
+              borderRadius: '8px',
+              border: '1px solid #ccc',
+              backgroundColor: '#f9f9f9',
+              fontSize: '16px',
+              width: '100%',
             }}
           >
-            Sauvegarder
-          </button>
-        </form>
+            {zones.map((zone) => (
+              <option key={zone} value={zone}>
+                {zone}
+              </option>
+            ))}
+          </select>
+          <h2 style={{ marginBottom: '1rem', color: '#444' }}>Évolution des polluants (7 derniers jours)</h2>
+          <ResponsiveContainer width="100%" height={300}>
+            <LineChart data={zoneData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
+              <XAxis dataKey="date" />
+              <YAxis domain={[0, 2]} ticks={[0, 1, 2]} tickFormatter={customTickFormatter} />
+              <Tooltip
+                formatter={(value) => valueToEtat(value)}
+                labelFormatter={(label) => `Date : ${label}`}
+              />
+              <Legend />
+              <Line type="monotone" dataKey="Dioxyde d'azote" stroke="#8884d8" />
+              <Line type="monotone" dataKey="Ozone" stroke="#82ca9d" />
+              <Line type="monotone" dataKey="Particules PM10" stroke="#ff7300" />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
+  
+        <div style={{
+          backgroundColor: 'white',
+          borderRadius: '12px',
+          padding: '1.5rem',
+          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+          // maxWidth: '500px',
+          margin: '0 auto',
+        }}>
+          <h3 style={{ marginBottom: '1rem', color: '#444' }}>Recevoir les alertes par email</h3>
+          <form onSubmit={handleEmailSubmit}>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Entrez votre adresse email"
+              style={{
+                padding: '0.75rem',
+                marginBottom: '1rem',
+                width: '100%',
+                borderRadius: '8px',
+                border: '1px solid #ccc',
+                fontSize: '16px',
+              }}
+            />
+            <button
+              type="submit"
+              style={{
+                padding: '0.75rem 1.5rem',
+                backgroundColor: '#5a67d8',
+                color: 'white',
+                border: 'none',
+                borderRadius: '8px',
+                fontSize: '16px',
+                cursor: 'pointer',
+                width: '100%',
+              }}
+            >
+              Sauvegarder
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );
+  
 }
 
 export default Air;

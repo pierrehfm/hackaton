@@ -3,8 +3,9 @@ const pool = require('../db');
 exports.getAnalyseStats = async (req, res) => {
   try {
     const result = await pool.query(`
-      SELECT date, pollution_detectee, moyenne_journaliere
-      FROM pollution_trafic_jour;
+      SELECT date, zone, polluant, etat, SUM(moyennejou)
+      FROM pollution_trafic_correlation
+      GROUP BY date, zone, polluant, etat;
     `);
 
     res.json(result.rows); 
